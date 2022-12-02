@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    scroll-behavior: smooth;
+    
+}
+@font-face{
+    font-family:'fontku';
+    src: url(VintageWheelFreeTrial-Rpyd6.otf);
+}
+@font-face{
+    font-family: 'home';
+    src: url(FlowerDaysDemo-X3ay2.ttf);
+}
+@font-face{
+    font-family:'cafe';
+    src: url(HumbleCafe-P6R7.ttf);
+}
+@font-face{
+    font-family:'sweet';
+    src: url(SweetCherryFree-K7MZo.otf);
+}
+
+nav {
+    overflow: hidden;
+    width: 100%;
+    background: linear-gradient(to right, #ffffff, #604b36);
+    position: fixed;
+    top: 0px;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+    z-index: 100;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.767),rgba(0, 0, 0, 0.712)),
+    url(img/Beibehang-Wallpaper-Kustom-Digambar-Tangan-Biji-Kopi-Dekoratif-Lukisan-Cafe-Restoran-Tv-Latar-Belakang-Dinding-Mural.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 50px;
+    background-attachment: fixed;
+    background-color: #000000;
+    
+}
+
+
+nav h1 {
+    font-size: 45px;
+    width: 35%;
+    left: 5px;
+    z-index: 100;
+    font-family: 'home';
+    margin-right: 0px;
+    margin-top: 0px;
+    
+  
+}
+
+
+nav li {
+    display: inline;
+    width: 150px;
+    height: 100px;
+    line-height: 50px;
+    font-family: 'fontku';
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(90, 72, 72);
+    font-family: 'fontku';
+    padding: 0px 10px;
+    font-weight: bold;
+    transition: 0.15s;
+    font-size: 35px;
+    margin-left: 30px;
+}
+
+nav a:hover {
+    color: aliceblue;
+}
+
+main{
+    height: calc(100vh - 60px);
+    display: flex;
+    justify-content:center ;
+    align-items:center ;
+    flex-direction: column;
+}
+main img{
+    width: 350px;
+    height: 400px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 50px;
+    background: linear-gradient(rgba(0, 0, 0, 0.767),rgba(0, 0, 0, 0.712)),
+    url(img/depositphotos_309229222-stock-illustration-coffee-logo-golden-bean-coffee.jpg);
+    color: white;
+    border-radius: 50%;
+    margin-top: 100px;
+    background-size: cover;
+    border: dashed 3px white;
+}
+
+main button{
+    width: 250px;
+    height: 250px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 30px;
+    font-size: 30px;
+    background: linear-gradient(#5c3e2a,#100e0e);
+    cursor: pointer;
+}
+main button:hover{
+    transform: translateY(5px);
+    transition: 0.2s;
+}
+
+.wrapper{
+   background: linear-gradient(rgba(0, 0, 0, 0.767),rgba(0, 0, 0, 0.712)),
+   url(img/realistic-coffee-background-with-drawings_79603-603.webp);
+   background-size: cover;
+   background-attachment: fixed;
+   margin-top: 50px;
+
+}
+.logo-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+    width: 100%;
+    background: linear-gradient(rgba(33, 30, 33, 0.849),rgb(92, 72, 50));
+    height: 100px;
+    margin-top: 50px;
+
+}
+.logo-section h1{
+    width: 250px;
+    font-size: 2rem;
+    color: #000000;
+    margin-left: 10px;
+}
+
+.main {
+  width: 1170px;
+  margin: 100px auto;
+  margin-top: 10px;
+  margin-top: 50px;
+}
+.section-title {
+  text-align: center;
+  margin-bottom: 50px;
+  color: white;
+  font-size: 30px;
+  font-family: 'home';
+}
+.section-title p{
+    margin-top: 5px;
+}
+.section-title h2 {
+  font-size: 35px;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+  color: white;
+  margin-top: 20px;
+  font-family: 'home';
+}
+.section-title h2:before {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 3px;
+  background-color: #00875c;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.menus {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.menu-column {
+  width: 31%;
+}
+.menu-column h4 {
+  text-transform: capitalize;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  position: relative;
+  padding-bottom: 10px;
+  color: white;
+  font-family: 'cafe';
+}
+.menu-column h4:before {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 2px;
+  background-color: #00875c;
+  bottom: 0;
+}
+.single-menu {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  color: white;
+}
+.single-menu img {
+  border-radius: 20%;
+  max-width: 110px;
+  padding: 1px;
+  margin-right: 15px;
+  transition: .3s;
+}
+.single-menu:hover img{
+    transform:translateY(-10px);
+}
+.single-menu .menu-content h5 {
+  text-transform: capitalize;
+  font-size: 22px;
+  font-weight: 500;
+  border-bottom: 1px dashed rgb(255, 255, 255);
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+.single-menu .menu-content h5 span {
+  color: tomato;
+  float: right;
+  font-weight: 600;
+  font-style: italic;
+  font-family: 'cafe';
+
+}
+.single-menu .menu-content h5{
+    font-family: 'sweet';
+}
+
+.footer {
+    width: 100%;
+    height: 70px;
+    background-color: #564438;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    top: auto;
+}
+
+.social {
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition-property: color;
+    transition-duration: 300ms;
+}
+
+.fc:hover {
+    color: rgb(56, 56, 253);
+}
+
+.ig:hover {
+    color: rgb(163, 54, 167);
+}
+.twt:hover{
+    color: rgb(0, 183, 255);
+}
+
+.fc:hover{
+    transform: translateY(-3px);
+}
+.ig:hover{
+    transform: translatey(-3px);
+}
+.twt:hover{
+    transform: translatey(-3px);
+}
+
+.footer h1 {
+    color: rgb(235, 235, 235);
+    font-size: 43px;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+
